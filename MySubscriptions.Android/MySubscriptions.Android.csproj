@@ -41,6 +41,9 @@
     <WarningLevel>4</WarningLevel>
     <AndroidManagedSymbols>true</AndroidManagedSymbols>
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <AndroidEnableMultiDex>true</AndroidEnableMultiDex>
+    <AndroidUseAapt2>true</AndroidUseAapt2>
+    <AndroidPackageFormat>apk</AndroidPackageFormat>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
