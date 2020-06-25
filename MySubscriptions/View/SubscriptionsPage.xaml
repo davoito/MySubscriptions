@@ -24,7 +24,8 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <TextCell Text="{Binding Name}"
-                              Detail="{Binding SubscribedDate}"/>
+                              Detail="{Binding SubscribedDate}"
+                              DetailColor="{StaticResource accentColor}"/>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
